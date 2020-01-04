@@ -9,17 +9,17 @@ import { MainComponent } from './home-page/main/main.component';
 import { SectionFeaturesComponent } from './home-page/section-features/section-features.component';
 import { SectionToursComponent } from './home-page/section-tours/section-tours.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { GridLayoutComponent } from './references/grid-layout/grid-layout.component';
+import { SectionStoriesComponent } from './home-page/section-stories/section-stories.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    GridLayoutComponent,
     MainComponent,
     SectionFeaturesComponent,
     SectionToursComponent,
-    HomePageComponent
+    HomePageComponent,
+    SectionStoriesComponent
   ],
   imports: [
     BrowserModule,
