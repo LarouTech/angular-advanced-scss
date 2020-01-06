@@ -12,6 +12,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SectionStoriesComponent } from './home-page/section-stories/section-stories.component';
 import { SectionBookingComponent } from './home-page/section-booking/section-booking.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { BookingModalComponent } from './home-page/section-booking/booking-modal/booking-modal.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FooterComponent } from './footer/footer.component';
     HomePageComponent,
     SectionStoriesComponent,
     SectionBookingComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent,
+    BookingModalComponent,
   ],
   imports: [
     BrowserModule,
