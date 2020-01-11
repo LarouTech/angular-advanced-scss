@@ -11,6 +11,11 @@
     visibility: hidden;
     transition: all .4s;
 
+    @include respond(tab-port) {
+        position: relative;
+        height: 100vh;
+      }
+
     &__content {
         @include centerize;
         width: 75%;
@@ -22,6 +27,7 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.3);
         transition: all .4s .3s;
+
     }
 
     &__left {
@@ -33,7 +39,9 @@
         display: table-cell;
         width: 66.666667%;
         vertical-align: middle;
-        padding: 3rem 5rem
+        padding: 3rem 5rem;
+  
+  
     }
 
     &__img {
