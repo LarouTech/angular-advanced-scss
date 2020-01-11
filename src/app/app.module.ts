@@ -10,6 +10,10 @@ import { SectionFeaturesComponent } from './home-page/section-features/section-f
 import { SectionToursComponent } from './home-page/section-tours/section-tours.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SectionStoriesComponent } from './home-page/section-stories/section-stories.component';
+import { SectionBookingComponent } from './home-page/section-booking/section-booking.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { BookingModalComponent } from './home-page/section-booking/booking-modal/booking-modal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { SectionStoriesComponent } from './home-page/section-stories/section-sto
     SectionFeaturesComponent,
     SectionToursComponent,
     HomePageComponent,
-    SectionStoriesComponent
+    SectionStoriesComponent,
+    SectionBookingComponent,
+    FooterComponent,
+    NavigationComponent,
+    BookingModalComponent,
   ],
   imports: [
     BrowserModule,
